@@ -48,3 +48,5 @@ matplotlib
 wordcloud
 xlrd
 openpyxl
+spacy
+spacytextblob
