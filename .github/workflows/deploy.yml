@@ -27,7 +27,7 @@ jobs:
       - name: Build JupyterLite
         run: make build-jupyterlite
 
-    # Until we have a public repository, we cannot deploy on GitHub Pages.
+    # Until we don't have a public repository, we cannot deploy on GitHub Pages.
     #   - name: Update the main gh-page website
     #     if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
     #     uses: peaceiris/actions-gh-pages@v4
