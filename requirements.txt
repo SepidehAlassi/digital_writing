@@ -46,3 +46,5 @@ bqplot
 pandas
 matplotlib
 wordcloud
+xlrd
+openpyxl
