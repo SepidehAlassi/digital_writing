@@ -50,6 +50,7 @@ xlrd
 openpyxl
 spacy
 spacytextblob
+spacy_cleaner
 scikit-learn
 gensim
 scipy
