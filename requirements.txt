@@ -2,5 +2,6 @@ jupyterlite
 jupyter_server
 jupyterlab_server
 jupyterlite-pyodide-kernel
+
 libarchive-c
 pyodide-http
