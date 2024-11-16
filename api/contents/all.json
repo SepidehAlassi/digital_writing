@@ -1,0 +1,43 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2024-11-16T17:56:47.183391Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2024-11-16T17:56:35.455351Z",
+      "mimetype": null,
+      "name": "data_visualization.ipynb",
+      "path": "data_visualization.ipynb",
+      "size": 5420,
+      "type": "notebook",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2024-11-16T17:56:47.183391Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2024-11-16T17:56:35.459351Z",
+      "mimetype": null,
+      "name": "wordcloud.ipynb",
+      "path": "wordcloud.ipynb",
+      "size": 349986,
+      "type": "notebook",
+      "writable": true
+    }
+  ],
+  "created": "2024-11-16T17:56:47.183391Z",
+  "format": "json",
+  "hash": null,
+  "hash_algorithm": null,
+  "last_modified": "2024-11-16T17:56:47.183391Z",
+  "mimetype": null,
+  "name": "",
+  "path": "",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}
