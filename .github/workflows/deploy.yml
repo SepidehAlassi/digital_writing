@@ -31,6 +31,6 @@ jobs:
         if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/master' }}
         uses: peaceiris/actions-gh-pages@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.DIGITALWRITING_TOKEN }}
           publish_dir: ./jupyterlite/dist
           commit_message: "[ci skip] ${{ github.event.head_commit.message }}"
