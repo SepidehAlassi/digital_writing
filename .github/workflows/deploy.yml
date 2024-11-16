@@ -3,7 +3,7 @@ name: deploy-jupyterlite
 on:
   push:
     branches:
-      - "main"
+      - "master"
   # Just to check that we don't have a regression in pull-requests
   pull_request:
     branches:
@@ -26,12 +26,11 @@ jobs:
 
       - name: Build JupyterLite
         run: make build-jupyterlite
-
-    # Until we don't have a public repository, we cannot deploy on GitHub Pages.
-    #   - name: Update the main gh-page website
-    #     if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
-    #     uses: peaceiris/actions-gh-pages@v4
-    #     with:
-    #       github_token: ${{ secrets.GITHUB_TOKEN }}
-    #       publish_dir: ./jupyterlite/dist
-    #       commit_message: "[ci skip] ${{ github.event.head_commit.message }}"
+        
+      - name: Update the main gh-page website
+        if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/master' }}
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./jupyterlite/dist
+          commit_message: "[ci skip] ${{ github.event.head_commit.message }}"
